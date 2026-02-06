@@ -8706,19 +8706,19 @@ Namespace.InputUi = class {
 
         this.goPauseBtn = UiUtils.CreateElement('button', 'go_btn', this.ctrlsDiv, 
             {width:'30%', height:'30%', top:'10%', left:'4%', border:0, background:this.bkgndColor});
-        this.goPauseBtn.innerHTML = '<img class="button-img" src="./btn_play.png" border="0" width="100% height="auto">';
+        this.goPauseBtn.innerHTML = '<img class="button-img" src="https://berryvilleiml.com/wp-content/uploads/btn_play.png" border="0" width="100% height="auto">';
         this.goPauseBtn.onclick = this._onGoPauseBtnClick.bind(this);
         this.goPauseBtn.className += " noselect";
 
         this.stepBtn = UiUtils.CreateElement('button', 'step_btn', this.ctrlsDiv, 
             {width:'30%', height:'30%', top:'10%', left:'35%', border:0, background:this.bkgndColor});
-        this.stepBtn.innerHTML = '<img class="button-img" src="./btn_step.png" border="0" width="100% height="auto">';
+        this.stepBtn.innerHTML = '<img class="button-img" src="https://berryvilleiml.com/wp-content/uploads/btn_step.png" border="0" width="100% height="auto">';
         this.stepBtn.onclick = this._onStepBtnClick.bind(this);
         this.stepBtn.className += " noselect";
 
         this.resetBtn = UiUtils.CreateElement('button', 'reset_btn', this.ctrlsDiv, 
             {width:'30%', height:'30%', top:'10%', left:'66%', border:0, background:this.bkgndColor});
-        this.resetBtn.innerHTML = '<img class="button-img" src="./btn_reset.png" border="0" width="100% height="auto">';
+        this.resetBtn.innerHTML = '<img class="button-img" src="https://berryvilleiml.com/wp-content/uploads/btn_pause.png" border="0" width="100% height="auto">';
         this.resetBtn.onclick = this._onResetBtnClick.bind(this);
         this.resetBtn.className += " noselect";
 
@@ -8779,19 +8779,19 @@ Namespace.InputUi = class {
             case 'ready':
                 setEnabled(this.randoBtn, true);
                 this.letterGrid.setEditable(true);
-                this.goPauseBtn.children[0].src = './btn_play.png'; 
+                this.goPauseBtn.children[0].src = 'https://berryvilleiml.com/wp-content/uploads/btn_play.png'; 
                 break;
             case 'paused':
                 setEnabled(this.randoBtn, true);
                 this.letterGrid.setEditable(true);
-                this.goPauseBtn.children[0].src = './btn_play.png'; 
+                this.goPauseBtn.children[0].src = 'https://berryvilleiml.com/wp-content/uploads/btn_play.png'; 
                 break;
             case 'running':
                 setEnabled(this.stepBtn, false);
                 setEnabled(this.resetBtn, false);
                 setEnabled(this.randoBtn, false);
                 this.letterGrid.setEditable(false);
-                this.goPauseBtn.children[0].src = './btn_pause.png'; 
+                this.goPauseBtn.children[0].src = 'https://berryvilleiml.com/wp-content/uploads/btn_pause.png'; 
                 break;
             default:
                 break;
@@ -10144,6 +10144,7 @@ Namespace.WorkspaceUi = class
 
 
 })( window.LetterSpirit = window.LetterSpirit || {} );
+
 
 
 
