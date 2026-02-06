@@ -8718,7 +8718,7 @@ Namespace.InputUi = class {
 
         this.resetBtn = UiUtils.CreateElement('button', 'reset_btn', this.ctrlsDiv, 
             {width:'30%', height:'30%', top:'10%', left:'66%', border:0, background:this.bkgndColor});
-        this.resetBtn.innerHTML = '<img class="button-img" src="https://berryvilleiml.com/wp-content/uploads/btn_pause.png" border="0" width="100% height="auto">';
+        this.resetBtn.innerHTML = '<img class="button-img" src="https://berryvilleiml.com/wp-content/uploads/btn_reset.png" border="0" width="100% height="auto">';
         this.resetBtn.onclick = this._onResetBtnClick.bind(this);
         this.resetBtn.className += " noselect";
 
@@ -10144,6 +10144,7 @@ Namespace.WorkspaceUi = class
 
 
 })( window.LetterSpirit = window.LetterSpirit || {} );
+
 
 
 
