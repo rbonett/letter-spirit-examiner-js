@@ -2014,7 +2014,7 @@ Namespace.Roles = class
      */
     static right_halfarch = {
         name: "right_halfarch",
-        shortName: "r-hlfarc",
+        shortName: "r-hlfarch",
         topology: "segment",
         stroke: "down",
         norms: {
@@ -10144,6 +10144,7 @@ Namespace.WorkspaceUi = class
 
 
 })( window.LetterSpirit = window.LetterSpirit || {} );
+
 
 
 
